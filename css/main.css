@@ -123,17 +123,33 @@ input[type="submit"]:hover {
     padding: 4px;
 }
 
-.comment {    
-    display: flex;
-    justify-content: space-between;
+.comment {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.user-comment {
+    margin-top: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-comment h5 {
+    margin: 5px 0px;
 }
 
 .comment img {
-    height: 30px;
-    border-radius: 15px;
+    height: 50px;
+    border-radius: 25px;
     border: black 2px solid;
     display: flex;
-}
+    margin: 5px;;
+} 
 
 .aside-data h4 {
     font-size: 17px;
@@ -142,12 +158,6 @@ input[type="submit"]:hover {
     font-weight: 200;
     margin: 15px 0;
     text-transform: uppercase;
-}
-
-.user-comment {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .content {
