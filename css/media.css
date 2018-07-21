@@ -6,60 +6,15 @@
     .main {
         padding: 2.5rem 0 0;
         max-width: 100%;
-        margin-left: -1.2rem;
-        margin-right: -1.2rem;
-    }
-
-    .article {
-        padding: 0.7rem;
-        max-width: 280px;
-    }
-}
-
-@media only screen and (max-width: 1026px) {
-    .container {
-        max-width: 900px;
-    }
-
-    .main {
-        max-width: 100%;
-        margin-left: -1rem;
-        margin-right: -1rem;
-    }
-
-    .article {
-        padding: 0.5rem;
-        max-width: 200px;
     }
 }
 
 @media only screen and (max-width: 940px) {
-    .container {
-        max-width: 800px;
-    }
-
-    .article {
-        max-width: 470px;
-    }
 
     .logo-words {
         display: none;
     }
 
-}
-
-@media only screen and (max-width: 840px) {
-    .container {
-        max-width: 700px;
-    }
-
-    .article {
-        max-width: 370px;
-    }
-    
-    .logo-words {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 780px) {
@@ -75,7 +30,7 @@
 
     .main {
         padding:2.2em;
-        margin: 0 auto
+        margin: 0 auto;
     }
 
     .header .container {
@@ -118,12 +73,6 @@
     .article{
         max-width: 600px;
         padding: 0;
-    }
-
-    .aside {
-        padding: 0.5rem 0 7.5rem;
-        margin:0 auto;
-        float: left;
     }
 
     .nav-burger {
