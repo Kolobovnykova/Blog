@@ -3,15 +3,26 @@
     background-color: rgb(255, 255, 255);
     border-bottom: black 1px solid;
 }
+
 .header .container{
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
 }
 
+.logo {
+    margin-left: 20px;
+}
+
 .logo img {
     max-height: 100px;
     border: black solid 2px;
+}
+
+.logo-words {
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .nav-burger-checkbox,
@@ -72,10 +83,4 @@
 .nav-burger-checkbox:checked ~ .nav {
     display: block;
     z-index: 5;
-}
-
-.logo-words {
-    padding-top: 30px;
-    font-size: 1.5em;
-    font-weight: 400;
 }

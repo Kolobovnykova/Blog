@@ -7,13 +7,12 @@
         padding: 2.5rem 0 0;
         max-width: 100%;
     }
-
-    .logo {
-        margin-left: 20px;
-    }
 }
 
 @media only screen and (max-width: 940px) {
+    .container {
+        max-width: 800px;
+    }
 
     .logo-words {
         display: none;
@@ -23,19 +22,15 @@
         height: 30px;
         border-radius: 15px;
     } 
-
-    .logo {
-        margin-left: 40px;
-    }
 }
 
-@media only screen and (max-width: 780px) {
-    .grid {
-        grid-template-areas:
-        "main"
-        "aside";
+/* @media only screen and (max-width: 850px) {
+    .container {
+        max-width: 700px;
     }
+} */
 
+@media only screen and (max-width: 780px) {
     .container {
         max-width: 600px;
     }
@@ -77,11 +72,11 @@
         margin:0;
     }
 
-    .navigations ul{
+    .navigations ul {
         display: block;
     }
 
-    .article{
+    .article {
         max-width: 600px;
         padding: 0;
     }
@@ -103,7 +98,7 @@
         max-width: 740px;
         display: block;
         padding: 10px 0;
-        background-color:#818d9a ;
+        background-color:#818d9a;
         font-weight: bold;
         text-align: left;
         text-transform: uppercase;
